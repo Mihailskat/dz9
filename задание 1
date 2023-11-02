@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+m = min(a, b)
+
+while True:
+  if m % a == 0 and m % b == 0:
+    break
+  m += 1
+
+print(m)
